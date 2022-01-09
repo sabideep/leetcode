@@ -1,5 +1,6 @@
+from typing import List
 class Solution:
-    def moveZeroes(self, nums):
+    def moveZeroes(self, nums: List[int]):
         i = 0
         n = len(nums)
         for num in nums:
